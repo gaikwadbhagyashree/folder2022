@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <body>
+     <input type="button" name="click here" onclick= "return function1()">
+        <script>
+        function function1(){
+         var array1=["jay","sanika","anu","nalu"];
+         var array2=["nishada","tushar"]
+         //var k=array1.slice(2); //2 index pasun pudhe
+         // var k=array1.join("*");
+        //array1.push("honey");
+        //array1.pop();
+        // array1.shift();//delete first element from array
+        //array1.unshift("bhagya");//add element at begining position
+         //array1[0]="abc";
+         //array1[array1.length]="xyz";//to add element to an array
+        //var frnds=array1.concat(array2);//for merging array
+       // array1.splice(2,2,"xyz");//first argument=adding position;second position= how many elements delete FROM index;third element=new element to be adding
+        //  var slicereturn= array1.slice(2);  
+        //array1.reverse();
+        array1.forEach(Element=>{
+            document.write(Element)
+        })
+       document.write(array1);
+        }
+    </script>
+            </body>
+    
+</html>

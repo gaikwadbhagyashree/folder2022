@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+let a = Math.Round(5.3);
+document.write(a);
+
+</script>
+</body>
+</html>
